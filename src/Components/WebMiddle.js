@@ -1,162 +1,199 @@
 import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
 
 const WebMiddle = () => {
   return (
-    <div class="container mt-5 mx-5">
-      <div class="row mt-5 ">
+    <Container style={{ display: "flex", justifyContent: "center" }}>
+      <Row className="mt-5 mx-5">
         <h4>Top-rated Doctors</h4>
-        <div
-          class="col-sm-3 mt-5 mx-4"
+
+        <Col
+          className="mt-4 p-3 mx-2"
+          xs={6}
+          sm={6}
+          md={3}
+          lg={3}
           style={{
             border: "1px solid #55AEAD",
-            width: "12rem",
-            height: "14rem",
-            borderRadius: "12px",
+            justifyContent: "center",
+            textAlign: "center",
+            borderRadius: "5px",
+            width: "9rem",
+            height: "12rem",
           }}
         >
           <img
-            class="img-fluid my-3 mx-4"
+            style={{ width: "4rem", height: "4rem" }}
+            class="img-fluid mt-2"
             src="/Images/Frame 36.png"
             alt="img"
-            style={{ width: "7rem", height: "7rem" }}
           />
           <p
-            style={{ fontSize: "1rem", color: "#55AEAD", textAlign: "center" }}
+            className="mt-3"
+            style={{
+              fontSize: "0.8rem",
+              color: "#55AEAD",
+              fontWeight: "500",
+            }}
           >
             Badmus Lawal
           </p>
           <p
+            className="mt-4"
             style={{
-              fontSize: "0.75rem",
+              fontSize: "0.9rem",
               color: "#55AEAD",
-              textAlign: "center",
+              fontWeight: "500",
             }}
           >
-            <b>General Practitioner</b>
+            General Practitioner
           </p>
-        </div>
-        <div
-          class="col-sm-3 mt-5  mx-4"
+        </Col>
+        <Col
+          className="mt-4 p-3"
+          xs={6}
+          sm={6}
+          md={3}
+          lg={3}
           style={{
+            marginLeft: "1rem",
             border: "1px solid #55AEAD",
-            width: "12rem",
-            height: "14rem",
-            borderRadius: "12px",
+            justifyContent: "center",
+            textAlign: "center",
+            borderRadius: "5px",
+            width: "9rem",
+            height: "12rem",
           }}
         >
           <img
-            class="img-fluid my-3 mx-4"
+            style={{ width: "4rem", height: "4rem" }}
+            class="img-fluid mt-2"
             src="/Images/Frame 37.png"
             alt="img"
-            style={{ width: "7rem", height: "7rem" }}
           />
           <p
-            style={{ fontSize: "1rem", color: "#55AEAD", textAlign: "center" }}
+            className="mt-3"
+            style={{
+              fontSize: "0.8rem",
+              color: "#55AEAD",
+              fontWeight: "500",
+            }}
           >
             Usman Musa
           </p>
           <p
+            className="mt-4"
             style={{
-              fontSize: "0.75rem",
+              fontSize: "0.9rem",
               color: "#55AEAD",
-              textAlign: "center",
+              fontWeight: "500",
             }}
           >
-            <b>Neuro-Surgeon</b>
+            Neuro-Surgeon
           </p>
-        </div>
-        <div
-          class="col-sm-3 mt-5  mx-4"
+        </Col>
+        <Col
+          className="mt-4 p-3"
+          xs={6}
+          sm={6}
+          md={3}
+          lg={3}
           style={{
+            marginLeft: "1.5rem",
             border: "1px solid #55AEAD",
-            width: "12rem",
-            height: "14rem",
-            borderRadius: "12px",
+            justifyContent: "center",
+            textAlign: "center",
+            borderRadius: "5px",
+            width: "9rem",
+            height: "12rem",
           }}
         >
           <img
-            class="img-fluid my-3 mx-4"
+            style={{ width: "4rem", height: "4rem" }}
+            class="img-fluid mt-2"
             src="/Images/Frame 38.png"
             alt="img"
-            style={{ width: "7rem", height: "7rem" }}
           />
           <p
-            style={{ fontSize: "1rem", color: "#55AEAD", textAlign: "center" }}
+            className="mt-3"
+            style={{
+              fontSize: "0.8rem",
+              color: "#55AEAD",
+              fontWeight: "500",
+            }}
           >
             Mautinez James
           </p>
           <p
+            className="mt-4"
             style={{
-              fontSize: "0.75rem",
+              fontSize: "0.9rem",
               color: "#55AEAD",
-              textAlign: "center",
+              fontWeight: "500",
             }}
           >
-            <b>Dermatologist</b>
+            Dermatologist
           </p>
-        </div>
-        <div
-          class="col-sm-3 mt-5  mx-3"
+        </Col>
+        <Col
+          className="mt-4 p-3"
+          xs={6}
+          sm={6}
+          md={3}
+          lg={3}
           style={{
+            marginLeft: "1.5rem",
+            justifyContent: "center",
+            textAlign: "center",
+            borderRadius: "5px",
+            width: "9rem",
+            height: "12rem",
             border: "1px solid #55AEAD",
-            width: "12rem",
-            height: "14rem",
-            borderRadius: "12px",
           }}
         >
           <img
-            class="img-fluid my-3 mx-4"
+            style={{ width: "4rem", height: "4rem" }}
+            class="img-fluid mt-2"
             src="/Images/Frame 39.png"
             alt="img"
-            style={{ width: "7rem", height: "7rem" }}
           />
           <p
-            style={{ fontSize: "1rem", color: "#55AEAD", textAlign: "center" }}
+            className="mt-3"
+            style={{
+              fontSize: "0.8rem",
+              color: "#55AEAD",
+              fontWeight: "500",
+            }}
           >
             Bruno Rodrigez
           </p>
           <p
+            className="mt-4"
             style={{
-              fontSize: "0.75rem",
+              fontSize: "0.9rem",
               color: "#55AEAD",
-              textAlign: "center",
+              fontWeight: "500",
             }}
           >
-            <b>Psychiatrist</b>
+            Psychiatrist
           </p>
-        </div>
-      </div>
-      <img
-        src="/Images/Frame 289.png"
-        alt="img"
-        class="img-fluid mt-5"
-        style={{ width: "100%", marginLeft: "-3rem" }}
-      />
-      <img
-        src="/Images/Frame 40.png"
-        alt="img"
-        class="img-fluid float-end"
-        style={{ width: "19rem", height: "15rem", margin: "7rem 7rem 0 0" }}
-      />
-      <h2 class="" style={{ marginTop: "8rem" }}>
-        Make your life Easier
-      </h2>
-      <p style={{ fontSize: "1.2rem", marginTop: "1rem" }}>
-        The mobile App is the quickest, easiest way <br /> to book and keep
-        track of your appointment.
-      </p>
-      <span>
-        <img class="img-fluid my-3 " src="/Images/Frame 29 (1).png" alt="img" />
-      </span>
-      <span>
-        <img
-          class="img-fluid my-3 "
-          src="/Images/Frame 29.png"
-          alt="img"
-          style={{ marginLeft: "2rem" }}
-        />
-      </span>
-    </div>
+        </Col>
+        <Col xs={12} sm={12} md={12} lg={12}>
+          <img
+            style={{ width: "60rem", height: "15rem" }}
+            src="/Images/Frame 289.png"
+            alt="img"
+            className="img-fluid mt-5"
+          />
+          <img
+            style={{ width: "60rem", height: "15rem" }}
+            src="/Images/Frame 292.png"
+            alt="img"
+            className="img-fluid mt-5"
+          />
+        </Col>
+      </Row>
+    </Container>
   );
 };
 

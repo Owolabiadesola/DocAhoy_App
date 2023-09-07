@@ -7,8 +7,13 @@ import Footer from "./Footer";
 const SignUpSuccessPage = () => {
   return (
     <div
-      class="container my-3"
-      style={{ backgroundColor: "#EBF5F5", width: "78%", height: "65rem" }}
+      class="container"
+      style={{
+        backgroundColor: "#EBF5F5",
+        width: "100%",
+        maxHeight: "65rem",
+        minHeight: "63rem",
+      }}
     >
       <NavBarTwo />
       <SignupSuccessAlert />

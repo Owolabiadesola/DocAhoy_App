@@ -1,36 +1,40 @@
 import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
 
 const OurservicesBody = () => {
   return (
-    <div class="mt-5 mx-5">
-      <h4>Available Specialists</h4>
-      <hr />
-      <div class="row mt-4 mx-1">
-        <div class="col-sm-3 mt-2">
-          <ul style={{ listStyle: "none" }}>
-            <li>General practitioner </li>
-            <hr />
-            <li>Denistry</li>
-            <hr />
-            <li>Urgent care</li>
-            <hr />
-            <li>OBGYNs</li>
-            <hr />
-          </ul>
-        </div>
-        <div class="col-sm-3 mt-2">
-          <ul style={{ listStyle: "none" }}>
-            <li>Psychiatrist</li>
-            <hr />
-            <li>Pediatric</li>
-            <hr />
-            <li>Pharmacist </li>
-            <hr />
-            <li>Dermatologist</li>
-            <hr />
-          </ul>
-        </div>
-        <div class="col-sm-3 mt-2">
+    <Container>
+      <Row className="m-5">
+        <h4>Available Specialists</h4>
+        <Col xs={6} sm-={6} md={6} lg={3} className="mt-3">
+          <div>
+            <ul style={{ listStyle: "none" }}>
+              <li>General practitioner </li>
+              <hr />
+              <li>Denistry</li>
+              <hr />
+              <li>Urgent care</li>
+              <hr />
+              <li>OBGYNs</li>
+              <hr />
+            </ul>
+          </div>
+        </Col>
+        <Col xs={6} sm-={6} md={6} lg={3} className="mt-3">
+          <div>
+            <ul style={{ listStyle: "none" }}>
+              <li>Psychiatrist</li>
+              <hr />
+              <li>Pediatric</li>
+              <hr />
+              <li>Pharmacist </li>
+              <hr />
+              <li>Dermatologist</li>
+              <hr />
+            </ul>
+          </div>
+        </Col>
+        <Col xs={6} sm-={6} md={6} lg={3} className="mt-3">
           <ul style={{ listStyle: "none" }}>
             <li>Optometrists</li>
             <hr />
@@ -41,8 +45,8 @@ const OurservicesBody = () => {
             <li>General Surgeons</li>
             <hr />
           </ul>
-        </div>
-        <div class="col-sm-3 mt-2">
+        </Col>
+        <Col xs={6} sm-={6} md={6} lg={3} className="mt-3">
           <ul style={{ listStyle: "none" }}>
             <li>Veterinarians </li>
             <hr />
@@ -51,9 +55,9 @@ const OurservicesBody = () => {
             <li>Chiropractor</li>
             <hr />
           </ul>
-        </div>
-      </div>
-    </div>
+        </Col>
+      </Row>
+    </Container>
   );
 };
 

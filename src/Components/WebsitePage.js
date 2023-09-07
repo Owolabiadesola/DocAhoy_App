@@ -7,7 +7,12 @@ const WebsitePage = () => {
   return (
     <div
       class="container my-3"
-      style={{ backgroundColor: "#EBF5F5", width: "80%", height: "171rem" }}
+      style={{
+        backgroundColor: "#EBF5F5",
+        width: "100%",
+        maxHeight: "175rem",
+        minHeight: "123rem",
+      }}
     >
       <NavBarOne />
       <WebTop />

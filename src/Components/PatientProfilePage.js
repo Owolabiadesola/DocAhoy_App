@@ -5,8 +5,12 @@ import PatientProfileBody from "./PatientProfileBody";
 const PatientProfilePage = () => {
   return (
     <div
-      class="container my-2"
-      style={{ backgroundColor: "#EBF5F5", width: "78%", height: "40rem" }}
+      class="container"
+      style={{
+        backgroundColor: "#EBF5F5",
+        Width: "100%",
+        maxHeight: "45rem",
+      }}
     >
       <NavBarTwo />
       <PatientProfileBody />

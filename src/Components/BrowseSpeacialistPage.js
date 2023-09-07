@@ -5,8 +5,13 @@ import Footer from "./Footer";
 const BrowseSpeacialistPage = () => {
   return (
     <div
-      class="container my-3"
-      style={{ backgroundColor: "#EBF5F5", width: "78%", height: "62rem" }}
+      class="container"
+      style={{
+        backgroundColor: "#EBF5F5",
+        width: "100%",
+        height: "60rem",
+        minHeight: "70rem",
+      }}
     >
       <NavBarOne />
       <OurservicesBody />

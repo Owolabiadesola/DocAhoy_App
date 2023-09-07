@@ -5,8 +5,8 @@ import PaymentFailureBody from "./PaymentFailureBody";
 const PaymentFailure = () => {
   return (
     <div
-      class="container my-2"
-      style={{ backgroundColor: "#EBF5F5", width: "65rem", height: "39rem" }}
+      class="container"
+      style={{ backgroundColor: "#EBF5F5", width: "100%", height: "39rem" }}
     >
       <NavBarTwo />
       <PaymentFailureBody />

@@ -7,10 +7,10 @@ const PaymentBody = () => {
     <div
       class="my-4 "
       style={{
-        width: "40rem",
-        height: "28rem",
+        maxWidth: "40rem",
+        height: "35rem",
         border: "1px whitesmoke solid",
-        margin: "1rem 0 0 14rem",
+        margin: "auto",
         borderRadius: "10px",
       }}
     >
@@ -35,44 +35,40 @@ const PaymentBody = () => {
             Transaction fee may apply
           </p>
         </span>
-        <span>
+        <span style={{ display: "flex" }}>
           <img
             src="/Images/mastercard.png"
             alt="img"
             style={{
               width: "2.5rem",
               height: "2rem",
-              margin: "-4rem  0 0 23rem",
+              margin: "auto",
             }}
           />
-        </span>
-        <span>
           <img
             src="/Images/visa.png"
             alt="img"
             style={{
               width: "2.5rem",
               height: "1rem",
-              margin: "-3.5rem  0 0 2rem",
+              margin: "auto",
             }}
           />
-        </span>
-        <span>
           <img
             src="/Images/verve1.png"
             alt="img"
             style={{
               width: "5rem",
               height: "1.5rem",
-              margin: "-3.5rem  0 0 2rem",
+              margin: "auto",
             }}
           />
         </span>
       </section>
-      <h6 class="mt-4 mx-4">Cardholder Name</h6>
-      <input class="mt-3 mx-4" type="text" style={{ width: "37rem" }} />
+      <h6 class="mt-5 mx-4">Cardholder Name</h6>
+      <input class="mt-3 mx-4" type="text" style={{ width: "27rem" }} />
       <h6 class="mt-4 mx-4">Card Number</h6>
-      <input class="mt-3 mx-4" type="text" style={{ width: "37rem" }} />
+      <input class="mt-3 mx-4" type="text" style={{ width: "27rem" }} />
       <img
         src="/Images/mastercard.png"
         alt="img"
@@ -122,22 +118,20 @@ const PaymentBody = () => {
       <button
         class="mt-4 mx-4"
         style={{
-          width: "35rem",
+          width: "27rem",
           backgroundColor: "#1f605f",
           border: "none",
           borderRadius: "5px",
         }}
       >
-        {" "}
         <a href="/PaymentSuccess" class="btn text-decoration-none text-light ">
-          {" "}
           Confirm Payment{" "}
         </a>
       </button>
       <input
         style={{
           height: "2.8rem",
-          width: "35rem",
+          width: "27rem",
           margin: "1rem 0 0 1.5rem",
         }}
       />

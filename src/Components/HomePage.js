@@ -7,7 +7,12 @@ const HomePage = () => {
   return (
     <div
       class="container my-3"
-      style={{ backgroundColor: "#EBF5F5", width: "78%", height: "115rem" }}
+      style={{
+        backgroundColor: "#EBF5F5",
+        width: "100%",
+        maxHeight: "176rem",
+        minHeight: "100rem",
+      }}
     >
       <NavBarOne />
       <HomepageTop />

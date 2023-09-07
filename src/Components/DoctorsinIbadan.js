@@ -8,8 +8,13 @@ import Footer from "./Footer";
 const DoctorsinIbadan = () => {
   return (
     <div
-      class="container my-3"
-      style={{ backgroundColor: "#EBF5F5", width: "78%", height: "106rem" }}
+      class="container"
+      style={{
+        backgroundColor: "#EBF5F5",
+        width: "100%",
+        maxHeight: "108rem",
+        minHeight: "90rem",
+      }}
     >
       <NavBarTwo />
       <DDIDivOne />

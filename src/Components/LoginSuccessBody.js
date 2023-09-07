@@ -1,12 +1,12 @@
 import React from "react";
 import { RiArrowDropDownLine } from "react-icons/ri";
-
+import { Container, Row, Col } from "react-bootstrap";
 const LoginSuccessBody = () => {
   return (
-    <div>
-      <h4 class="mt-5 mx-5">Find Doctors and Specialists by City</h4>
-      <div class="row mt-4 mx-1">
-        <div class="col-sm-3 mt-2">
+    <Container>
+      <Row>
+        <h3 class="mt-5 mx-5">Find Doctors and Specialists by City</h3>
+        <Col xs={6} sm={6} md={3} lg={3} className="mt-4">
           <ul style={{ listStyle: "none" }}>
             <li>
               <a
@@ -25,7 +25,7 @@ const LoginSuccessBody = () => {
                 }}
               />
             </span>
-            <hr style={{ marginTop: "-0.4rem" }} />
+            <hr style={{ margin: "auto" }} />
             <li>
               <a
                 href="/DoctorsinAbuja"
@@ -64,8 +64,9 @@ const LoginSuccessBody = () => {
             </span>
             <hr style={{ marginTop: "-0.4rem" }} />
           </ul>
-        </div>
-        <div class="col-sm-3 mt-2">
+        </Col>
+        <Col xs={6} sm={6} md={3} lg={3} className="mt-4">
+          {" "}
           <ul style={{ listStyle: "none" }}>
             <li>Uyo </li>{" "}
             <span>
@@ -101,8 +102,8 @@ const LoginSuccessBody = () => {
             </span>
             <hr style={{ marginTop: "-0.4rem" }} />
           </ul>
-        </div>
-        <div class="col-sm-3 mt-2">
+        </Col>
+        <Col xs={6} sm={6} md={3} lg={3} className="mt-4">
           <ul style={{ listStyle: "none" }}>
             <li>Port harcourt </li>{" "}
             <span>
@@ -138,8 +139,8 @@ const LoginSuccessBody = () => {
             </span>
             <hr style={{ marginTop: "-0.4rem" }} />
           </ul>
-        </div>
-        <div class="col-sm-3 mt-2">
+        </Col>
+        <Col xs={6} sm={6} md={3} lg={3} className="mt-4">
           <ul style={{ listStyle: "none" }}>
             <li>Calabar </li>{" "}
             <span>
@@ -175,9 +176,9 @@ const LoginSuccessBody = () => {
             </span>
             <hr style={{ marginTop: "-0.4rem" }} />
           </ul>
-        </div>
-      </div>
-    </div>
+        </Col>
+      </Row>
+    </Container>
   );
 };
 

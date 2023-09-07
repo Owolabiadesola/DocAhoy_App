@@ -1,3 +1,4 @@
+import "./App.css";
 import BokingPageAbj3 from "./Components/BokingPageAbj3";
 import BookingPageAbj1 from "./Components/BookingPageAbj1";
 import BookingPageAbj2 from "./Components/BookingPageAbj2";

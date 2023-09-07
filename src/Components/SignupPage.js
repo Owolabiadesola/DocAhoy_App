@@ -5,8 +5,13 @@ import Footer from "./Footer";
 const SignupPage = () => {
   return (
     <div
-      class="container my-3"
-      style={{ backgroundColor: "#EBF5F5", width: "78%", height: "90rem" }}
+      class="container"
+      style={{
+        backgroundColor: "#EBF5F5",
+        width: "100%",
+        maxHeight: "90rem",
+        minHeight: "77rem",
+      }}
     >
       <NavBarOne />
       <SignupBody />

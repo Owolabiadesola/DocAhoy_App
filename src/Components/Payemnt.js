@@ -5,8 +5,8 @@ import PaymentBody from "./PaymentBody";
 const Payemnt = () => {
   return (
     <div
-      class="container mx-5 my-3"
-      style={{ border: "1px whitesmoke solid", height: "39rem" }}
+      class="container"
+      style={{ border: "2px whitesmoke solid", height: "57rem", width: "100%" }}
     >
       <NavBarTwo />
       <PaymentBody />

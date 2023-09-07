@@ -9,8 +9,9 @@ const BokingPageAbj3 = () => {
       class="container my-3"
       style={{
         backgroundColor: "white",
-        width: "78%",
-        height: "77rem",
+        width: "100%",
+        maxHeight: "90rem",
+
         border: "1px darkgray solid",
       }}
     >

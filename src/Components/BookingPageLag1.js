@@ -6,11 +6,11 @@ import Footer from "./Footer";
 const BookingPageLag1 = () => {
   return (
     <div
-      class="container my-3"
+      class="container"
       style={{
         backgroundColor: "white",
-        width: "78%",
-        height: "76rem",
+        width: "100%",
+        maxHeight: "87rem",
         border: "1px darkgray solid",
       }}
     >

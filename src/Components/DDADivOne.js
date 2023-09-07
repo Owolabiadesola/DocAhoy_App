@@ -1,43 +1,50 @@
 import React from "react";
 import { AiFillStar } from "react-icons/ai";
+import { Container, Row, Col } from "react-bootstrap";
 
 const DDADivOne = () => {
   return (
-    <div>
+    <Container>
       <span>
-        <h3 style={{ margin: "3rem 0 0 5rem" }}> Doctor's in Abuja</h3>
+        <h3 style={{ margin: "3rem 0 0 4rem" }}> Doctor's in Abuja</h3>
       </span>
       <span>
         <img
+          className="img-fluid"
           src="/Images/image 21.png"
           alt="img"
           style={{
-            width: "50rem",
+            width: "100%",
             height: "5rem",
-            margin: "-3.5rem 0 0 10rem",
+            margin: "-3.5rem 0 0 4rem",
           }}
         />
       </span>
-      <div
+      <Row
         class="row mt-4 mx-5"
         style={{
           backgroundColor: "#ABD7D6",
-          width: "58rem",
+          maxWidth: "58rem",
+          minWidth: "20rem",
           height: "18rem",
           marginTop: "2rem",
           marginLeft: "3rem",
           borderRadius: "7px",
         }}
       >
-        <div class="col-sm-4">
+        <Col xs={3} sm={3} md={3} lg={3}>
           <img
+            className="img-fluid"
             src="./Images/Frame 37.png"
             alt="div1img"
-            style={{ width: "13rem", height: "13rem", margin: "2rem 0 0 1rem" }}
+            style={{
+              maxWidth: "13rem",
+              height: "13rem",
+              margin: "2rem 0 0 1rem",
+            }}
           />
-        </div>
-        <div class="col-sm-4 mt-4">
-          {" "}
+        </Col>
+        <Col className="mt-2" xs={6} sm={6} md={6} lg={6}>
           <h4>Dr. Usman Musa</h4>
           <h6 class="text-light">Neuro Surgeon</h6>
           <ul style={{ color: "#55AEAD", marginLeft: "-2rem" }}>
@@ -70,17 +77,18 @@ const DDADivOne = () => {
           <p style={{ fontSize: "0.7rem" }}>Maitama</p>
           <h6 style={{ fontSize: "0.8rem" }}>Joined 2019</h6>
           <p style={{ fontSize: "0.7rem", color: "white" }}>Fees: 15,000 NGN</p>
-        </div>
-        <div class="col-sm-4">
+        </Col>
+        <Col xs={3} sm={3} md={3} lg={3}>
           <div class="dropdown1">
             <button
               // Dropdown background styling
+              className="mt-3"
               style={{
                 backgroundColor: "#EBF5F5",
                 borderRadius: "5px",
                 border: " 1px black solid ",
                 height: "2.3rem",
-                margin: "2rem 0 0 5rem",
+                margin: "auto",
               }}
               class="btn dropdown-toggle"
               type="button"
@@ -104,7 +112,6 @@ const DDADivOne = () => {
               border: "1px #55AEAD solid",
               color: "white",
               marginTop: "9rem",
-              marginLeft: "7rem",
               height: "2rem",
               borderRadius: "5px",
             }}
@@ -113,9 +120,9 @@ const DDADivOne = () => {
               Book Now
             </a>
           </button>
-        </div>
-      </div>
-    </div>
+        </Col>
+      </Row>
+    </Container>
   );
 };
 
