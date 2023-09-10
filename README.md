@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+# DocAhoy!
+A responsive and colorful Doctor's Wedsite
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Home Page
+![Home  Page ](https://github.com/Owolabiadesola/DocAhoy_App/assets/127605911/9caa51b8-fe01-4a2a-a766-74a96a6bf9cd)
 
-## Available Scripts
 
-In the project directory, you can run:
+# Overview
+This was my first Frontend Development training project at SWIT (Stories Of Women in Tech)
 
-### `npm start`
+DocAhoy is an application that enables Patients sign up for the first time and then login when they already have an account. Patients can signup or login, book an appointment with the available Doctors, make an upfront payment for the appointment.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Timeframe
+2 weeks
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Team
+Adesola Oluwanifemi Adesola
 
-### `npm test`
+# Deployment
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+You can find the hosted version here:
 
-### `npm run build`
+Repository link: 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Technologies used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+• HTML5
+• CSS
+• Bootstrap
+• Vanilla JavaScript
+• ReactJavaScript
+• Chrome
+• Git & GitHub
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Demostration of App Flow
 
-### `npm run eject`
+https://github.com/Owolabiadesola/DocAhoy_App/assets/127605911/17a06459-a134-4a7e-9987-6dc69e46635d
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Screenshots
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Below are few of the screenshots from the Website.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Signup Page.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![SignUp page](https://github.com/Owolabiadesola/DocAhoy_App/assets/127605911/001dc6b8-5b48-4c0a-80f6-5b2e9e81378a)
 
-## Learn More
+Login Page.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Login Page](https://github.com/Owolabiadesola/DocAhoy_App/assets/127605911/7f0d6c8f-5500-494a-895c-021f8ffc61dc)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Signup and Login Success Page, where you can find Doctors in different Cities.
 
-### Code Splitting
+![Signup and Login Success Page](https://github.com/Owolabiadesola/DocAhoy_App/assets/127605911/483459f4-02da-42b9-8525-087e69b3a8c3)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+The Pictures below show the Pages of Doctors in different cities and how to book an appointment.
 
-### Analyzing the Bundle Size
+![DoctorsinIbadan](https://github.com/Owolabiadesola/DocAhoy_App/assets/127605911/63006ed8-1821-4c9c-b5c9-8ced310b49e7)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![DoctorsinAbuja](https://github.com/Owolabiadesola/DocAhoy_App/assets/127605911/3d0de632-d182-446f-8ff8-d824dc5a2057)
 
-### Making a Progressive Web App
+![DoctorsinLagos](https://github.com/Owolabiadesola/DocAhoy_App/assets/127605911/ae053490-9be0-4986-9e4f-db10bd1c4718)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Booking Page
 
-### Advanced Configuration
+![Booking Page](https://github.com/Owolabiadesola/DocAhoy_App/assets/127605911/d41c3d53-84df-40cf-844f-ba5b2835b7b8)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Booking Success Page
 
-### Deployment
+![BookingSuccessPage](https://github.com/Owolabiadesola/DocAhoy_App/assets/127605911/ba773801-3ebc-4ff0-b516-4964164e3fa3)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Payment Page
 
-### `npm run build` fails to minify
+![Payment Page](https://github.com/Owolabiadesola/DocAhoy_App/assets/127605911/5b02ee0b-2e35-43f0-84a1-d2de46693857)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Payment Success Page
+
+![Paymet Success](https://github.com/Owolabiadesola/DocAhoy_App/assets/127605911/adb4c70e-a3d3-4d99-aaa2-f7f02e26242e)
+
+Payment Failure Page 
+
+![Payment Failure](https://github.com/Owolabiadesola/DocAhoy_App/assets/127605911/4a9b8f0f-3ec9-4e92-b5c7-05ebe7b4ea2e)
+
+# Key learnings
+
+This project massively added to my knowledge, I believe when I practice more I get better.
