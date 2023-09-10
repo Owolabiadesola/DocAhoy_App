@@ -2,18 +2,21 @@
 A responsive and colorful Doctor's Wedsite
 
 Home Page
+
 ![Home  Page ](https://github.com/Owolabiadesola/DocAhoy_App/assets/127605911/9caa51b8-fe01-4a2a-a766-74a96a6bf9cd)
 
 
 # Overview
-This was my first Frontend Development training project at SWIT (Stories Of Women in Tech)
 
+This was my first Frontend Development training project at SWIT (Stories Of Women in Tech)
 DocAhoy is an application that enables Patients sign up for the first time and then login when they already have an account. Patients can signup or login, book an appointment with the available Doctors, make an upfront payment for the appointment.
 
 # Timeframe
+
 2 weeks
 
 # Team
+
 Adesola Oluwanifemi Adesola
 
 # Deployment
@@ -25,12 +28,19 @@ Repository link:
 # Technologies used
 
 • HTML5
+
 • CSS
+
 • Bootstrap
+
 • Vanilla JavaScript
+
 • ReactJavaScript
+
 • Chrome
+
 • Git & GitHub
+
 
 # Demostration of App Flow
 
@@ -52,7 +62,7 @@ Signup and Login Success Page, where you can find Doctors in different Cities.
 
 ![Signup and Login Success Page](https://github.com/Owolabiadesola/DocAhoy_App/assets/127605911/483459f4-02da-42b9-8525-087e69b3a8c3)
 
-The Pictures below show the Pages of Doctors in different cities and how to book an appointment.
+The Pictures below shows the Pages of Doctors in different cities and how to book an appointment.
 
 ![DoctorsinIbadan](https://github.com/Owolabiadesola/DocAhoy_App/assets/127605911/63006ed8-1821-4c9c-b5c9-8ced310b49e7)
 
